@@ -1,3 +1,13 @@
+---
+import "../styles/global.css";
+import { Navbar } from "../components/navbar/Navbar"
+import { Book, Sunset, Trees, Zap } from "lucide-react";
+import { Navbar1 } from "@/components/shadcnblocks-com-navbar1";
+import { StackedCircularFooter } from "@/components/ui/stacked-circular-footer";
+
+
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -7,8 +17,24 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body>
-		<slot />
+	<body class="px-3 sm:px-0">
+		<div class="container mx-auto">
+			<Navbar1 client:load/>
+		</div>
+		<!-- <navbar>
+			<div class="container mx-auto">
+				<div class="flex justify-between py-6">
+					<Navbar client:load/>
+				</div>
+				
+			</div>
+			
+		</navbar> -->
+		<div class="container mx-auto">
+			<slot />
+		</div>
+
+		<StackedCircularFooter />
 	</body>
 </html>
 
