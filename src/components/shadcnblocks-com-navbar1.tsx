@@ -1,4 +1,4 @@
-import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
+import { Book, Dock, Gamepad2, Globe, Menu, Sunset, Trees, Zap } from "lucide-react";
 
 import {
   Accordion,
@@ -57,10 +57,10 @@ interface Navbar1Props {
 
 const Navbar1 = ({
   logo = {
-    url: "https://www.shadcnblocks.com",
-    src: "https://www.shadcnblocks.com/images/block/block-1.svg",
+    url: "/",
+    src: "logo.png",
     alt: "logo",
-    title: "Shadcnblocks.com",
+    title: "Ngeteh",
   },
   menu = [
     {
@@ -68,58 +68,21 @@ const Navbar1 = ({
       url: "#",
       items: [
         {
-          title: "Blog",
-          description: "The latest industry news, updates, and info",
-          icon: <Book className="size-5 shrink-0" />,
+          title: "Website Premium",
+          description: "Buat website premium yang beda dari pasaran",
+          icon: <Globe className="size-5 shrink-0 text-blue-500" />,
+          url: "/website-premium",
+        },
+        {
+          title: "Aplikasi",
+          description: "Kami menawarkan solusi yang terintegrasi dan disesuaikan dengan tujuan strategis Anda",
+          icon: <Dock className="size-5 shrink-0 text-purple-500" />,
           url: "#",
         },
         {
-          title: "Company",
-          description: "Our mission is to innovate and empower the world",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Careers",
-          description: "Browse job listing and discover our workspace",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Support",
-          description:
-            "Get in touch with our support team or visit our community forums",
-          icon: <Zap className="size-5 shrink-0" />,
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Resources",
-      url: "#",
-      items: [
-        {
-          title: "Help Center",
-          description: "Get all the answers you need right here",
-          icon: <Zap className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Contact Us",
-          description: "We are here to help you with any questions you have",
-          icon: <Sunset className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Status",
-          description: "Check the current status of our services and APIs",
-          icon: <Trees className="size-5 shrink-0" />,
-          url: "#",
-        },
-        {
-          title: "Terms of Service",
-          description: "Our terms and conditions for using our services",
-          icon: <Book className="size-5 shrink-0" />,
+          title: "Game",
+          description: "Game untuk pembelajaran, game custom atau game desktop Kami siap membantu Anda",
+          icon: <Gamepad2 className="size-5 shrink-0 text-green-600" />,
           url: "#",
         },
       ],
@@ -130,10 +93,6 @@ const Navbar1 = ({
     },
   ],
   mobileExtraLinks = [
-    { name: "Press", url: "#" },
-    { name: "Contact", url: "#" },
-    { name: "Imprint", url: "#" },
-    { name: "Sitemap", url: "#" },
   ],
   auth = {
     login: { text: "Log in", url: "#" },

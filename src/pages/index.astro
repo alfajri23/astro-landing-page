@@ -5,7 +5,6 @@ import { HandHelping, Phone, Users, Zap } from "lucide-react";
 import { Timeline } from '@/components/ui/timeline';
 import { Feature } from '@/components/ui/feature-with-advantages';
 import { Button } from '@/components/ui/button';
-
 ---
 
 <Layout>
@@ -13,11 +12,18 @@ import { Button } from '@/components/ui/button';
 	<div class="py-30"></div>
 	<Timeline client:load/>
 	<Feature />
-	<div class="flex justify-center">
-		<h3></h3>
-		<Button>
+
+	<!-- CTA -->
+	<div class="relative z-10 mx-auto flex max-w-container flex-col items-center gap-6 text-center sm:gap-8 mb-20 pb-20">
+		<div class="px-20">
+
+			<h3 class="text-4xl font-semibold sm:text-3xl mb-3">Hubungi Kami Sekarang</h3>
+			<p class="text-muted-foreground">Kami siap mendengarkan dan membantu Anda! Jangan ragu untuk menghubungi tim kami untuk pertanyaan, konsultasi, atau informasi lebih lanjut</p>
+		</div>
+		<Button className="bg-blue-400 hover:bg-blue-300 text-white">
 			<Phone className='me-2' />
-			Hubungi Kami Sekarang
+			<a href="https://forms.gle/oz2YAkuCQFwRGEjaA">Hubungi Kami Sekarang</a>
 		</Button>
 	</div>
+
 </Layout>

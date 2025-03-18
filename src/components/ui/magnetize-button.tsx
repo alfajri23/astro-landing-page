@@ -67,7 +67,7 @@ function MagnetizeButton({
             className={cn(
                 "min-w-40 relative touch-none",
                 "bg-blue-400 dark:bg-blue-900",
-                "hover:bg-blue-300 dark:hover:bg-blue-800",
+                "hover:bg-blue-400 dark:hover:bg-blue-800",
                 "text-white dark:text-white-300",
                 "border border-cyan-300 dark:border-cyan-700",
                 "transition-all duration-300",
@@ -93,7 +93,7 @@ function MagnetizeButton({
                     )}
                 />
             ))}
-            <span className="relative w-full flex items-center justify-center gap-2">
+            <a target="_blank" href="https://forms.gle/oz2YAkuCQFwRGEjaA" className="relative w-full flex items-center justify-center gap-2">
                 {/* <Magnet
                     className={cn(
                         "w-4 h-4 transition-transform duration-300",
@@ -101,8 +101,8 @@ function MagnetizeButton({
                     )}
                 /> */}
                 <PhoneCall className="w-4 h-4" />
-                {isAttracting ? "Hubungi Sekarang" : "Hubungi Kami"}
-            </span>
+                {isAttracting ? "Temukan Solusi" : "Hubungi Sekarang" }
+            </a>
         </Button>
     );
 }
