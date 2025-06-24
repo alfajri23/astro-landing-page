@@ -89,7 +89,7 @@ const Navbar1 = ({
     },
     {
       title: "Tentang Kami",
-      url: "#",
+      url: "/contact",
     },
   ],
   mobileExtraLinks = [

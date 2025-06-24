@@ -14,35 +14,12 @@ function StackedCircularFooter() {
           </div>
           <nav className="mb-8 flex flex-wrap justify-center gap-6">
             <a href="#" className="hover:text-primary">Home</a>
-            <a href="#" className="hover:text-primary">About</a>
-            <a href="#" className="hover:text-primary">Services</a>
-            <a href="#" className="hover:text-primary">Products</a>
-            <a href="#" className="hover:text-primary">Contact</a>
+            <a href="/contact" className="hover:text-primary">Contact</a>
           </nav>
-          <div className="mb-8 flex space-x-4">
-            <Button variant="outline" size="icon" className="rounded-full">
-              <Facebook className="h-4 w-4" />
-              <span className="sr-only">Facebook</span>
-            </Button>
-            <Button variant="outline" size="icon" className="rounded-full">
-              <Twitter className="h-4 w-4" />
-              <span className="sr-only">Twitter</span>
-            </Button>
-            <Button variant="outline" size="icon" className="rounded-full">
-              <Instagram className="h-4 w-4" />
-              <span className="sr-only">Instagram</span>
-            </Button>
-            <Button variant="outline" size="icon" className="rounded-full">
-              <Linkedin className="h-4 w-4" />
-              <span className="sr-only">LinkedIn</span>
-            </Button>
-          </div>
-          <div className="mb-8 w-full max-w-md">
-            
-          </div>
+          
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 Your Company. All rights reserved.
+              © Ngeteh. All rights reserved.
             </p>
           </div>
         </div>

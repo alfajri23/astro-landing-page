@@ -1,0 +1,50 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { Activity, DraftingCompass, Mail, Phone, Zap } from 'lucide-react'
+---
+
+<Layout>
+
+    <section class="py-16 md:py-32">
+        <div class="mx-auto max-w-6xl px-6">
+            <div class="grid items-center gap-12 md:grid-cols-2 md:gap-12 lg:grid-cols-5 lg:gap-24">
+                <div class="lg:col-span-2">
+                    <div class="md:pr-6 lg:pr-0">
+                        <h2 class="text-3xl font-semibold lg:text-4xl">Hubungi Kami !</h2>
+                        <p class="mt-6 text-gray-700">Kami siap membantu Anda dengan pertanyaan atau kebutuhan Anda. Jangan ragu untuk menghubungi kami dan dapatkan jawaban yang Anda butuhkan</p>
+                    </div>
+                    <ul class="mt-8 divide-y border-y *:flex *:items-center *:gap-3 *:py-3">
+                        <li>
+                            <Phone className="size-5 text-green-800" />
+                            <a href="https://wa.me/6283843611986">
+                                ( WA 1 ) +62 838-4361-1986
+                            </a>
+                        </li>
+                        <li>
+                            <Phone className="size-5 text-green-800" />
+                            <a href="https://wa.me/6289619119692">
+                            ( WA 2 ) +62 896-1911-9692
+                            </a>
+                        </li>
+                        <li>
+                            <Mail className="size-5 text-yellow-500" />
+                            <a href="mailto: ngeitech.group@gmail.com">
+                            ngeitech.group@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="border-border/50 relative rounded-3xl border p-3 lg:col-span-3">
+                    <div class="bg-linear-to-b aspect-76/59 relative rounded-2xl from-zinc-300 to-transparent p-px dark:from-zinc-700">
+                        <img src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-[15px] shadow dark:hidden" alt="payments illustration light" width={1207} height={929} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</Layout>
+
+
+
+

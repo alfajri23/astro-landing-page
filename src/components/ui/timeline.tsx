@@ -74,7 +74,7 @@ const data = [
         memastikan setiap detail diperhatikan untuk mencapai hasil yang optimal
         </p>
         <Button asChild variant="secondary">
-          <a href="" className="">
+          <a href="https://forms.gle/oz2YAkuCQFwRGEjaA" className="">
             Lihat lebih lanjut
             <ChevronRight className="w-4 h-4 ms-1" />
           </a>
@@ -107,7 +107,7 @@ const data = [
         Dengan tim pengembang game yang berpengalaman dan kreatif, kami menawarkan layanan pembuatan game yang dirancang khusus untuk memenuhi visi dan tujuan Anda
         </p>
         <Button asChild variant="secondary">
-          <a href="" className="">
+          <a href="https://forms.gle/oz2YAkuCQFwRGEjaA" className="">
             Lihat lebih lanjut
             <ChevronRight className="w-4 h-4 ms-1" />
           </a>
